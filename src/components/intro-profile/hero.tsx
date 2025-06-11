@@ -55,7 +55,7 @@ export default function Hero() {
       {colorScheme === 'light' ? <MoonIcon size={24} /> : <SunIcon size={24} />} 
         </ActionIcon>
       </Group> */}
-      <Group pos="absolute" right={0} bottom={24} style={{ ...glassEffect, borderRadius: 8 }} p="xs">
+      <Group pos="absolute" gap="xs" right={0} bottom={24} style={{ ...glassEffect, borderRadius: 8 }} p="xs">
       <ActionIcon variant="subtle" size="lg" component="a" href="mailto:galangseptiadi.dev@gmail.com" target="_blank" >
           <EnvelopeIcon size={24} />
         </ActionIcon>
